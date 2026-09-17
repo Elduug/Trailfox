@@ -1,0 +1,11 @@
+.DS_Store
+.build/
+.build26/
+.cache/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+Trailfox.app/
+*.dSYM/
+*.xcarchive
