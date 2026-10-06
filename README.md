@@ -1,5 +1,9 @@
 # Trailfox
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-2f6f4e.svg)](LICENSE)
+[![Platform: macOS 14+](https://img.shields.io/badge/macOS-14%2B-496c5a.svg)](#requirements)
+[![Swift 6](https://img.shields.io/badge/Swift-6-F05138.svg)](https://www.swift.org/)
+
 **Mac diagnostics beneath the surface**
 
 Trailfox is a native, local-first macOS troubleshooting utility. It collects system health evidence, correlates related failures, explains findings in plain language, and produces ticket-friendly technical and sanitized reports. Version 1 is deliberately read-only: it does not kill processes, change network settings, remove files, restart services, or transmit diagnostic data.
@@ -114,3 +118,13 @@ Each command has a bounded timeout. Slow or restricted commands produce partial/
 The repository was verified with a Swift 6 build, nine passing tests, a real collector smoke run (15 merged sections), report generation, app-bundle validation, and ad-hoc code-sign verification. The machine used for the final verification had an internally mismatched Command Line Tools compiler/SDK and no full Xcode installation; a temporary unmodified-system SDK copy was used to perform the build. This workaround is not needed on a normal matching Xcode installation.
 
 See [Architecture notes](docs/ARCHITECTURE.md) for data flow and extension points.
+
+## Contributing
+
+Bug reports and focused pull requests are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before contributing and report security or privacy issues through the process in [SECURITY.md](SECURITY.md).
+
+## License and author
+
+Trailfox is available under the [MIT License](LICENSE), including its original project artwork unless a file says otherwise.
+
+Created and maintained by [Jake Carter](https://github.com/Elduug) ([@Elduug](https://github.com/Elduug)).

@@ -15,6 +15,6 @@
     <key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
     <key>LSMinimumSystemVersion</key><string>14.0</string>
     <key>NSHighResolutionCapable</key><true/>
-    <key>NSHumanReadableCopyright</key><string>Trailfox diagnostics run locally and read-only.</string>
+    <key>NSHumanReadableCopyright</key><string>Copyright © 2026 Jake Carter. MIT License.</string>
 </dict>
 </plist>
